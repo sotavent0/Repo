@@ -44,10 +44,8 @@ else: standalone = False
 # set the repository's root folder here, if the script user has not set a custom path.      
 if standalone:
             if repo_root == False: repo_root = os.getcwd()
-            print script_name + '  v' + str(revision_number)
-            print script_credits
-            print 'Homepage and updates: ' + homepage
-            print ' '
+            
+
             
 else:
             #so that we can import stuff from parent dir (settings)
@@ -120,12 +118,10 @@ class Generator:
                         # we succeeded so add to our final addons.xml text
                         addons_xml += addon_xml.rstrip() + "\n\n"
 
-            except Exception, e:
-                # missing or poorly formatted addon.xml
-                print "Excluding %s for %s" % ( _path, e, )
+
 
         # clean and add closing tag
-        addons_xml = addons_xml.strip() + u"\n</addons>\n"
+    addons_xml = addons_xml.strip() + u"\n</addons>\n"
 
         # only generate files if we found an addon.xml
         if found_an_addon:
