@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.Carnamaleon"
        name="[COLOR gold]Carna[/COLOR][COLOR blue]maleon[/COLOR]"
-       version="2.0"
+       version="2.1"
        provider-name="Sotavent0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -24,7 +24,7 @@
 
   <extension point="xbmc.addon.metadata">
     <summary>Carnamaleon</summary>
-	<description>Todo el Carnaval de Cádiz en tu Kodi. Videos desde el Teatro Falla, pregones, programas especiales, TV / Radio en directo del concurso y mucho más...</description>
+	<description>Todo el Carnaval de Cádiz en tu Kodi. Videos desde el Teatro Falla, pregones, programas especiales, TV+Radio en directo del concurso y mucho más...</description>
     <platform>all</platform>
   </extension>
 </addon>
