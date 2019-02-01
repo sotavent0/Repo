@@ -22,7 +22,7 @@
     <provides>video</provides>
   </extension>
 
-      <extension point="xbmc.addon.repository" name="Repositorio Carnamaleon">
+    <extension point="xbmc.addon.repository" name="Repositorio Carnamaleon">
         <info>https://raw.githubusercontent.com/sotavent0/Repo/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/sotavent0/Repo/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/sotavent0/Repo/master/</datadir>
