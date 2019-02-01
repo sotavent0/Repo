@@ -22,6 +22,13 @@
     <provides>video</provides>
   </extension>
 
+      <extension point="xbmc.addon.repository" name="Repositorio Carnamaleon">
+        <info>https://raw.githubusercontent.com/sotavent0/Repo/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/sotavent0/Repo/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/sotavent0/Repo/master</datadir>
+    </extension>
+  
+  
   <extension point="xbmc.addon.metadata">
     <summary>Carnamaleon</summary>
 	<description>Todo el Carnaval de Cádiz en tu Kodi. Videos desde el Teatro Falla, pregones, programas especiales, TV+Radio en directo del concurso y mucho más...</description>
